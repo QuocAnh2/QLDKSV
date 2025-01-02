@@ -59,7 +59,7 @@ document.getElementById('changePassForm').addEventListener('submit', function(e)
             confirmButtonText: 'OK'
         }).then(() => {
             // Điều hướng về trang chủ sau khi thông báo thành công
-            window.location.href = "Home.html"; // Thay thế bằng trang bạn muốn điều hướng
+            window.location.href = "Home.html"; 
         });
     }
 });
